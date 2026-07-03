@@ -5,7 +5,7 @@ Homebrew tap for Coot.
 ## Install
 
 ```bash
-brew tap coot-ai/tap && brew install coot
+brew install coot-ai/tap/coot
 ```
 
 ## Upgrade
