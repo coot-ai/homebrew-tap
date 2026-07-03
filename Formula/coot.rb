@@ -5,10 +5,10 @@ class Coot < Formula
 
   if Hardware::CPU.arm?
     url "https://github.com/coot-ai/coot-cli/releases/download/v1.0.0/coot_v1.0.0_darwin_arm64.tar.gz"
-    sha256 "9e988f9cf84b6b96ff8b31e0d70817e25a145b27211391efff78e752d7a39c0f"
+    sha256 "340c22835a6d060d8f6f78378d639eef7f94a127c20a0c0784ff4214694a8592"
   else
     url "https://github.com/coot-ai/coot-cli/releases/download/v1.0.0/coot_v1.0.0_darwin_amd64.tar.gz"
-    sha256 "ea8b775d5f92df7e0a04772eb586a2e3e799419e2f70e1b6a4eca51c4d8cd5ee"
+    sha256 "a7608cd6f893901676aafa9b3ad441021782bd66599887a1fca093790fd0f139"
   end
 
   def install
