@@ -24,8 +24,6 @@ git pull
 brew upgrade coot
 ```
 
-可以解决版本缓存的问题
-
 ## Test
 
 ```bash
