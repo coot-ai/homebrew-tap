@@ -1,14 +1,14 @@
 class Coot < Formula
   desc "Package Codex/Claude-built iOS apps for device testing, anywhere."
   homepage "https://coot.dev"
-  version "0.2.0"
+  version "0.2.1"
 
   if Hardware::CPU.arm?
-    url "https://github.com/coot-ai/coot-cli/releases/download/v0.2.0/coot_v0.2.0_darwin_arm64.tar.gz"
-    sha256 "b1ac591020d10dcb2dd6cc36ee35a4fc6e4afae54fe9a174a5f1eeb2ea111d00"
+    url "https://github.com/coot-ai/coot-cli/releases/download/v0.2.1/coot_v0.2.1_darwin_arm64.tar.gz"
+    sha256 "ea733fcc2cbf2b028f26021fa9d6e4a3877b3bee433afccc104b4f3badd7bf12"
   else
-    url "https://github.com/coot-ai/coot-cli/releases/download/v0.2.0/coot_v0.2.0_darwin_amd64.tar.gz"
-    sha256 "81e503cb2ce980b8442aa665053587dd4066072f6d46c95fc03438397452b3ae"
+    url "https://github.com/coot-ai/coot-cli/releases/download/v0.2.1/coot_v0.2.1_darwin_amd64.tar.gz"
+    sha256 "175039c352cce2a3f27ae231600eec8c57229a1c606fa3d9ace019044ecffbb8"
   end
 
   def install
